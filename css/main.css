@@ -1,0 +1,171 @@
+/****BASE STYLES****/
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#about, #work, #contact {
+  height: 600px;
+}
+
+/***GRID***/
+.full-width{
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.half-width {
+  float: left;
+  width: 600px;
+}
+
+.third-width {
+  float: left;
+  width: 400px;
+}
+
+/***HEADER***/
+header {
+  background: url('../images-icons/hero.png');
+  background-size: cover;
+  height: 800px;
+}
+
+header h1 {
+  color: #cacda2;
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  padding: 50px 0;
+}
+
+nav {
+  float: right;
+  padding: 75px 40px;
+}
+
+nav ul li{
+  display: inline-block;
+}
+
+nav ul li a {
+  color: #bbbbbb;
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding-left: 80px;
+}
+
+header h2 {
+  clear: none;
+  color: #9a9b9b;
+  font-family: 'Lora', serif;
+  font-size: 48px;
+  line-height: 60px;
+  padding: 20px 0;
+  width: 1000px;
+}
+
+header h2 span {
+  color: #262a2b;
+}
+
+/***ABOUT***/
+#about .full-width {
+  padding: 80px 0;
+}
+
+#about h2 {
+  font-family: 'Lora', serif;
+  font-size: 36px;
+}
+
+#about p {
+  color: #7f7f7f;
+  font-size: 21px;
+  line-height: 40px;
+  padding-right: 50px;
+}
+
+/***WORK***/
+#work {
+  background-color: #f9ceb7;
+  text-align: center;
+}
+
+#work .full-width {
+  padding: 115px 0;
+}
+
+#work img {
+  padding-bottom: 30px;
+}
+
+#work h3 {
+  font-size: 24px;
+  margin: 0 auto;
+  width: 175px;
+}
+
+#work p {
+  color: #262a2b;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 0 35px;
+}
+
+/***CONTACT***/
+#contact {
+  background-color: #ebebeb;
+}
+
+#contact .full-width {
+  padding: 110px 0;
+}
+
+#contact-img {
+  border: 12px solid #ffffff;
+}
+
+#contact h2, #email-header, #socialmedia-header, #contact ul {
+  padding-left: 115px;
+}
+
+#envelope {
+  padding: 0 10px 0 115px;
+}
+
+#contact h2 {
+  font-family: 'Lora', serif;
+  font-size: 38px;
+}
+
+#email-header{
+  font-size: 32px;
+  font-weight: bold;
+  margin: -30px 0 5px 0;
+}
+
+#socialmedia-header {
+  font-size: 29pt;
+  font-weight: bold;
+  margin: 40px 0 0 0;
+}
+
+#contact a {
+  color: #c49075;
+  font-size: 29px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+#contact ul {
+  list-style: none;
+}
+
+#contact ul li {
+   display: inline-block;
+}
+
+#contact ul img {
+  padding-right: 48px;
+}
